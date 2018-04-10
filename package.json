@@ -1,0 +1,15 @@
+{
+  "name": "mta",
+  "version": "1.0.0",
+  "description": "NYC MTA SUBWAY STATUS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [],
+  "author": "Neal Shyam",
+  "dependencies": {
+    "curl": "^0.1.4"
+  },
+  "private": false
+}
