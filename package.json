@@ -4,9 +4,14 @@
   "description": "NYC MTA SUBWAY STATUS",
   "main": "index.js",
   "scripts": {
-    "test": "node index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nealrs/nyc-mta.git"
+  },
+  "license": "ISC",
+  "keywords": ["nyc", "mta", "subway"],
   "author": "Neal Shyam",
   "dependencies": {
     "curl": "^0.1.4"
