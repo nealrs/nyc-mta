@@ -1,5 +1,5 @@
 {
-  "name": "mta",
+  "name": "mymta",
   "version": "1.0.0",
   "description": "NYC MTA SUBWAY STATUS",
   "main": "index.js",
