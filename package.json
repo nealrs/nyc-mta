@@ -1,6 +1,6 @@
 {
   "name": "mymta",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NYC MTA SUBWAY STATUS",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,6 @@
   },
   "private": false,
   "bin": {
-    "shittymta": "./index.js"
-  },
-  "engines": {
-    "node": ">= 0.10.x"
+    "mta": "./index.js"
   }
 }
