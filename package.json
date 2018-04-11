@@ -16,5 +16,8 @@
   "dependencies": {
     "curl": "^0.1.4"
   },
-  "private": false
+  "private": false,
+  "bin": {
+    "mta": "./index.js"
+  },
 }
