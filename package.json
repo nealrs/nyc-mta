@@ -1,6 +1,6 @@
 {
   "name": "mymta",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "NYC MTA SUBWAY STATUS",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,15 @@
   },
   "license": "ISC",
   "keywords": ["nyc", "mta", "subway"],
-  "author": "Neal Shyam",
+  "author": "Neal Shyam <nealrs@gmail.com>",
   "dependencies": {
     "curl": "^0.1.4"
   },
-  "private": false
+  "private": false,
+  "bin": {
+    "shittymta": "./index.js"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  }
 }
